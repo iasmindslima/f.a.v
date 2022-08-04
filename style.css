@@ -1,0 +1,248 @@
+* {
+  font-family: Ubuntu, "times new roman", times, roman, serif !important;
+}
+
+b {
+  font-weight: bold;
+}
+
+hr {
+  border-top: 3px solid #ff0c92;
+}
+
+.title {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+
+.sectionOne {
+  padding: 0 20px;
+}
+
+.sectionOne .subtitle {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 1.7em;
+}
+
+.sectionOne .subtitle span:nth-child(1) {
+  color: green;
+}
+
+.sectionOne .subtitle span:nth-child(2) {
+  background-color: #ff0c92;
+}
+
+.sectionOne .text {
+  text-align: left;
+  font-size: 1em;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.sectionOne .text span, .sectionOne u {
+  color: red;
+}
+
+.sectionOne .text-item {
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+.sectionOne .text u {
+  font-weight: bold;
+}
+
+.sectionOne h3 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 1.3em;
+}
+
+.sectionTwo .container {
+  display: flex;
+  background-color: #ff0c92;
+  margin-top: 12px;
+  color: #fff;
+  padding: 0 20px;
+  gap: 10px;
+}
+
+.sectionTwo .neverMoreText {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  text-align: center;
+  font-size: 27px;
+  text-align: center;
+}
+
+.sectionTwo .textRealLove {
+  align-items: center;
+  text-align: center;
+  line-height: 20px;
+}
+
+.sectionThree {
+  padding: 0 20px;
+}
+.sectionThree h4 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 1.4em;
+}
+
+.sectionThree .list {
+  margin-top: 15px;
+  line-height: 15px;
+}
+
+.sectionThree .list svg {
+  color: #00d41f;
+}
+
+.sectionThree .totalValue {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.4em;
+}
+
+.sectionThree .value {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 2em;
+  color: red;
+  text-decoration: line-through;
+}
+
+.sectionThree .img {
+  width: 400px;
+  height: 230px;
+  margin: auto;
+  display: block;
+}
+
+.sectionThree button {
+  background-color: #f78700;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+  width: 300px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.sectionThree p {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 15px;
+  color: #6a6767;
+}
+
+.sectionFor {
+  padding: 0 20px;
+}
+.sectionFor .rotulo {
+  display: flex;
+  background-color: red;
+  margin-top: 12px;
+  color: #fff;
+  padding: 0 20px;
+  gap: 10px;
+  align-items: center;
+  
+}
+
+.sectionFor .stop {
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.sectionFor .page {
+  align-items: center;
+  line-height: 20px;
+  font-size: 20px;
+}
+
+.sectionFor .text {
+  font-size: 1em;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.sectionFor h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 1em;
+}
+
+.sectionFor .text-item {
+  font-size: 1em;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.sectionFor .textMore {
+  font-size: 1em;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.sectionFor h2 {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 1em;
+  line-height: 25px;
+}
+
+.sectionFor .love {
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 1.5em;
+}
+
+.sectionFor .love span:not(:last-child)  {
+  background-color: #ff0c92;
+}
+
+.sectionFor .love u {
+  color: red;
+}
+
+.sectionFor button {
+  background-color: #f78700;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+  margin-top: 15px;
+  width: 300px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sectionFor p {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 15px;
+  color: black;
+}
